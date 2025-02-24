@@ -180,8 +180,8 @@ jobs:
 
 Want to contribute? Fork this repo & create a pull request! 🚀
 
-📧 Contact: [your-email@example.com](mailto\:your-email@example.com)\
-🌍 Project Repo: [GitHub](https://github.com/your-username/medsync-backend)
+📧 Contact: [kasarebo@gsumail.gram.edu](mailto\:kasarebo@gsumail.gram.edu)\
+🌍 Project Repo: [GitHub](https://github.com/therealkwabena/medsync-backend)
 
 
 
