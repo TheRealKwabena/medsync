@@ -1,30 +1,29 @@
 package com.kobbiecode.medsync.model;
 
+
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
+
+import java.time.LocalDateTime;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 @Entity
-@Table(name="medications")
-public class Medication {
+@Table(name = "event_logs")
+public class EventLog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = false)
-    private String name;
+    private String eventType; // e.g., "MISSED_MEDICATION_ALERT"
 
     @Column(nullable = false)
-    private String dosage;
+    private String payload; // Stores JSON message data
 
     @Column(nullable = false)
-    private String manufacturer;
-
-
+    private LocalDateTime timestamp = LocalDateTime.now();
 }
