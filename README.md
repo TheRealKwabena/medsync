@@ -24,7 +24,6 @@ MedSync is a **real-time medication adherence system** that ensures patients tak
 - **Messaging:** Apache Kafka
 - **Frontend:** Flutter (Mobile)
 - **CI/CD:** GitHub Actions
-- **Deployment:** Docker, Kubernetes (Optional)
 
 ---
 
